@@ -53,6 +53,7 @@ body {
     margin-top: 1.2rem;
     font-size: 1.2rem;
     font-weight: 400;
+    line-height: 2rem;
     color: var(--grayish-blue);
 }
 
@@ -105,6 +106,7 @@ body {
 .attribute-text {
     max-width: 50%;
     margin-top: 1.2rem;
+    line-height: 2rem;
     color: var(--grayish-blue);
 }
 
@@ -143,6 +145,7 @@ body {
 .attribute-text-2 {
     max-width: 75%;
     margin-top: 1.2rem;
+    line-height: 2rem;
     color: var(--grayish-blue);
 }
 
@@ -350,7 +353,7 @@ body {
 
 @media only screen and (max-width: 580px) {
     .buttons-div {
-        min-width: 270px;
+        min-width: 280px;
         flex-direction: column;
         gap: 2rem; 
     }
